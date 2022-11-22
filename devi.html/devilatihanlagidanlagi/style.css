@@ -1,0 +1,172 @@
+*,html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(231, 167, 199);
+}
+
+.logo{
+    display: flex;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(142, 43, 93);
+    padding-left: 10px;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(142, 43, 93);
+    justify-content: space-around;
+    padding-top: 10px;
+   
+}
+
+.menu li a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.menu li a:hover{
+    color: aliceblue;
+}
+
+.parallax{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    color: firebrick;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    
+}
+.gambar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 1em;
+}
+
+.gambar1 img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.deskripsi1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: small;
+    font-size: 1em;
+    padding-left: 4em;
+
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    color: firebrick;
+    background-image: url('background2.jpg');
+    background-size: cover;
+}
+.gambar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-right: 3em;
+}
+
+.gambar2 img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.deskripsi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: small;
+    font-size: 1em;
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+.cast{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh ;
+    background-image: url('background3.jpg');
+}
+
+.gambar3{
+   display: flex;
+    font-size: 2em;
+    width: 33%;
+    justify-content: space-between;
+    
+}
+
+.gambar3 img{
+  
+   
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    height: 20vh;
+}
+
+.hubungi{
+    font-size: 2em;
+    font-family: monospace;
+    color: beige;
+
+}
+
+.list{
+    font-size: 2em;
+   padding-left: 55px;
+}
+
+
+
